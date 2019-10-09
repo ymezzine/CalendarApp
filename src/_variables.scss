@@ -1,0 +1,15 @@
+// Global SCSS Variables for the App
+@import '~@angular/material/theming';
+@import 'theme.scss';
+
+$top-nav-height: 3.5rem;
+
+$primary-color: mat-color($my-app-primary);
+
+
+/*
+colors
+*/
+$blue: #0053FF;
+$red: #ff2200;
+$lightgray: #D3D3D3;

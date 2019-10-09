@@ -1,0 +1,18 @@
+<div class="container">
+  <mat-form-field>
+    <mat-select [(value)]="selectedYear" (selectionChange)="onChangeYear(selectedYear)">
+      <mat-option *ngFor="let year of years; let i = index" [value]="year">{{year}}</mat-option>
+    </mat-select>
+  </mat-form-field>
+  <mat-form-field>
+    <mat-select [(value)]="selectedMonth" (selectionChange)="onChangeMonth(selectedMonth)"> 
+      <mat-option *ngFor="let label of monthsLabels; let i = index" [value]="i">{{label}}</mat-option>
+    </mat-select>
+  </mat-form-field>
+  <ul class="days">
+    <li *ngFor="let label of daysLabels">{{label}}</li>
+  </ul>
+  <ul *ngFor="let week of monthData">
+    <li *ngFor="let day of week" [ngClass]="{'isToday': day?.isToday}">{{day?.day}}<br/><span *ngIf="day?.weather">{{day?.weather}}°C</span></li>
+  </ul>
+</div>

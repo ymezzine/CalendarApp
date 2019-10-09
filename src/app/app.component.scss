@@ -1,0 +1,13 @@
+@import "./../variables";
+
+app-top-nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+main{
+    margin-top: $top-nav-height;
+}
+

@@ -1,0 +1,42 @@
+@import './../../../variables';
+
+.container {
+    max-width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    ul
+    {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+            display: block;
+            padding: 15px 5px;
+            float: left;
+            width: 60px;
+            text-align: center;
+
+        }
+
+        li.isToday{
+            color: $red;
+            font-weight: 700;
+        }
+
+        li>span{
+            color: $lightgray;
+            font-size: 0.8rem;
+        }
+    }
+
+    ul.days>li         {
+        padding: 5px;
+        color: $blue;
+        font-weight: 700;
+    }
+
+    
+}

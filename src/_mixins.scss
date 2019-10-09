@@ -1,0 +1,16 @@
+@mixin font-serif($size: 0, $weight: 400) {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    @include font-size-weight($size, $weight);
+  }
+
+@mixin font-sans-serif($size: 0, $weight: 400) {
+    font-family: Arial, Helvetica, sans-serif;
+    @include font-size-weight($size, $weight);
+}
+
+@mixin font-size-weight($size: 0, $weight: 400){
+    @if ($size != 0) {
+        font-size: $size;
+    }
+    font-weight: $weight;
+}

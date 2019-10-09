@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Shiba Inu",
+        "subtitle": "Dog Breed",
+        "image": "https://material.angular.io/assets/img/examples/shiba2.jpg",
+        "news": "The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan. A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally bred for hunting.",
+        "category": "Animals"
+    },
+    {
+        "title": "Bélgica convocará a Courtois",
+        "subtitle": "Real Madrid",
+        "image": "https://as01.epimg.net/futbol/imagenes/2019/10/04/primera/1570140617_682919_1570141492_noticia_normal.jpg",
+        "news": "El seleccionador de Bélgica, Roberto Martínez, adelantó en 'El Larguero' que este viernes citará al portero del Madrid. \"No veo un portero mejor en el mundo para el Madrid\", afirmó.",
+        "category": "Sport"
+    },
+    {
+        "title": "Equipo español",
+        "subtitle": "F1 de 2021",
+        "image": "https://as01.epimg.net/motor/imagenes/2019/10/03/formula_1/1570105901_421511_1570106097_noticia_normal.jpg",
+        "news": "La estructura de Adrián Campos y Salvatore Gandolfo prepara un plan que tendría, si lograra el visto bueno de FIA y F1, a Palou y Wehrlein como pilotos.",
+        "category": "Sport"
+    }
+]
